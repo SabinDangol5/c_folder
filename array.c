@@ -1,17 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	int arr[5]={4,0,1,3,2};
+	int arr[5]={4,01,3,2};
 	int i;
 	for(i=0;i<5;i++)
-	{
-		scanf("%d",&arr[i]);
-	}
-				for(i=0;i<5;i++)
-				{
-					printf("%d\n",arr[i]);
+		{
+		printf("%d\t",arr[i]);
 		}
-	
-	
 	return 0;
 }
